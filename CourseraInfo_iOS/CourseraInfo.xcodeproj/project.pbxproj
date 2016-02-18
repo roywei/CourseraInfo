@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0020C621C72FCC2009C555F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0020C611C72FCC2009C555F /* AppDelegate.swift */; };
+		B0020C641C72FCC2009C555F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0020C631C72FCC2009C555F /* ViewController.swift */; };
+		B0020C671C72FCC2009C555F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0020C651C72FCC2009C555F /* Main.storyboard */; };
+		B0020C691C72FCC2009C555F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0020C681C72FCC2009C555F /* Assets.xcassets */; };
+		B0020C6C1C72FCC2009C555F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0020C6A1C72FCC2009C555F /* LaunchScreen.storyboard */; };
+		B0020C771C72FCC2009C555F /* CourseraInfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0020C761C72FCC2009C555F /* CourseraInfoTests.swift */; };
+		B0020C821C72FCC2009C555F /* CourseraInfoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0020C811C72FCC2009C555F /* CourseraInfoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0020C731C72FCC2009C555F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0020C561C72FCC2009C555F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0020C5D1C72FCC2009C555F;
+			remoteInfo = CourseraInfo;
+		};
+		B0020C7E1C72FCC2009C555F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0020C561C72FCC2009C555F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0020C5D1C72FCC2009C555F;
+			remoteInfo = CourseraInfo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0020C5E1C72FCC2009C555F /* CourseraInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CourseraInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0020C611C72FCC2009C555F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0020C631C72FCC2009C555F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B0020C661C72FCC2009C555F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0020C681C72FCC2009C555F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0020C6B1C72FCC2009C555F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0020C6D1C72FCC2009C555F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0020C721C72FCC2009C555F /* CourseraInfoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CourseraInfoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0020C761C72FCC2009C555F /* CourseraInfoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseraInfoTests.swift; sourceTree = "<group>"; };
+		B0020C781C72FCC2009C555F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0020C7D1C72FCC2009C555F /* CourseraInfoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CourseraInfoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0020C811C72FCC2009C555F /* CourseraInfoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseraInfoUITests.swift; sourceTree = "<group>"; };
+		B0020C831C72FCC2009C555F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0020C5B1C72FCC2009C555F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0020C6F1C72FCC2009C555F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0020C7A1C72FCC2009C555F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0020C551C72FCC2009C555F = {
+			isa = PBXGroup;
+			children = (
+				B0020C601C72FCC2009C555F /* CourseraInfo */,
+				B0020C751C72FCC2009C555F /* CourseraInfoTests */,
+				B0020C801C72FCC2009C555F /* CourseraInfoUITests */,
+				B0020C5F1C72FCC2009C555F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0020C5F1C72FCC2009C555F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0020C5E1C72FCC2009C555F /* CourseraInfo.app */,
+				B0020C721C72FCC2009C555F /* CourseraInfoTests.xctest */,
+				B0020C7D1C72FCC2009C555F /* CourseraInfoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0020C601C72FCC2009C555F /* CourseraInfo */ = {
+			isa = PBXGroup;
+			children = (
+				B0020C611C72FCC2009C555F /* AppDelegate.swift */,
+				B0020C631C72FCC2009C555F /* ViewController.swift */,
+				B0020C651C72FCC2009C555F /* Main.storyboard */,
+				B0020C681C72FCC2009C555F /* Assets.xcassets */,
+				B0020C6A1C72FCC2009C555F /* LaunchScreen.storyboard */,
+				B0020C6D1C72FCC2009C555F /* Info.plist */,
+			);
+			path = CourseraInfo;
+			sourceTree = "<group>";
+		};
+		B0020C751C72FCC2009C555F /* CourseraInfoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0020C761C72FCC2009C555F /* CourseraInfoTests.swift */,
+				B0020C781C72FCC2009C555F /* Info.plist */,
+			);
+			path = CourseraInfoTests;
+			sourceTree = "<group>";
+		};
+		B0020C801C72FCC2009C555F /* CourseraInfoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0020C811C72FCC2009C555F /* CourseraInfoUITests.swift */,
+				B0020C831C72FCC2009C555F /* Info.plist */,
+			);
+			path = CourseraInfoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0020C5D1C72FCC2009C555F /* CourseraInfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0020C861C72FCC2009C555F /* Build configuration list for PBXNativeTarget "CourseraInfo" */;
+			buildPhases = (
+				B0020C5A1C72FCC2009C555F /* Sources */,
+				B0020C5B1C72FCC2009C555F /* Frameworks */,
+				B0020C5C1C72FCC2009C555F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CourseraInfo;
+			productName = CourseraInfo;
+			productReference = B0020C5E1C72FCC2009C555F /* CourseraInfo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0020C711C72FCC2009C555F /* CourseraInfoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0020C891C72FCC2009C555F /* Build configuration list for PBXNativeTarget "CourseraInfoTests" */;
+			buildPhases = (
+				B0020C6E1C72FCC2009C555F /* Sources */,
+				B0020C6F1C72FCC2009C555F /* Frameworks */,
+				B0020C701C72FCC2009C555F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0020C741C72FCC2009C555F /* PBXTargetDependency */,
+			);
+			name = CourseraInfoTests;
+			productName = CourseraInfoTests;
+			productReference = B0020C721C72FCC2009C555F /* CourseraInfoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0020C7C1C72FCC2009C555F /* CourseraInfoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0020C8C1C72FCC2009C555F /* Build configuration list for PBXNativeTarget "CourseraInfoUITests" */;
+			buildPhases = (
+				B0020C791C72FCC2009C555F /* Sources */,
+				B0020C7A1C72FCC2009C555F /* Frameworks */,
+				B0020C7B1C72FCC2009C555F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0020C7F1C72FCC2009C555F /* PBXTargetDependency */,
+			);
+			name = CourseraInfoUITests;
+			productName = CourseraInfoUITests;
+			productReference = B0020C7D1C72FCC2009C555F /* CourseraInfoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0020C561C72FCC2009C555F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Lai Wei";
+				TargetAttributes = {
+					B0020C5D1C72FCC2009C555F = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = PT38MA332R;
+					};
+					B0020C711C72FCC2009C555F = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = PT38MA332R;
+						TestTargetID = B0020C5D1C72FCC2009C555F;
+					};
+					B0020C7C1C72FCC2009C555F = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = PT38MA332R;
+						TestTargetID = B0020C5D1C72FCC2009C555F;
+					};
+				};
+			};
+			buildConfigurationList = B0020C591C72FCC2009C555F /* Build configuration list for PBXProject "CourseraInfo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0020C551C72FCC2009C555F;
+			productRefGroup = B0020C5F1C72FCC2009C555F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0020C5D1C72FCC2009C555F /* CourseraInfo */,
+				B0020C711C72FCC2009C555F /* CourseraInfoTests */,
+				B0020C7C1C72FCC2009C555F /* CourseraInfoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0020C5C1C72FCC2009C555F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0020C6C1C72FCC2009C555F /* LaunchScreen.storyboard in Resources */,
+				B0020C691C72FCC2009C555F /* Assets.xcassets in Resources */,
+				B0020C671C72FCC2009C555F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0020C701C72FCC2009C555F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0020C7B1C72FCC2009C555F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0020C5A1C72FCC2009C555F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0020C641C72FCC2009C555F /* ViewController.swift in Sources */,
+				B0020C621C72FCC2009C555F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0020C6E1C72FCC2009C555F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0020C771C72FCC2009C555F /* CourseraInfoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0020C791C72FCC2009C555F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0020C821C72FCC2009C555F /* CourseraInfoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0020C741C72FCC2009C555F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0020C5D1C72FCC2009C555F /* CourseraInfo */;
+			targetProxy = B0020C731C72FCC2009C555F /* PBXContainerItemProxy */;
+		};
+		B0020C7F1C72FCC2009C555F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0020C5D1C72FCC2009C555F /* CourseraInfo */;
+			targetProxy = B0020C7E1C72FCC2009C555F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0020C651C72FCC2009C555F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0020C661C72FCC2009C555F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0020C6A1C72FCC2009C555F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0020C6B1C72FCC2009C555F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0020C841C72FCC2009C555F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0020C851C72FCC2009C555F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0020C871C72FCC2009C555F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CourseraInfo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = andrew.cmu.edu.laiw.CourseraInfo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B0020C881C72FCC2009C555F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CourseraInfo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = andrew.cmu.edu.laiw.CourseraInfo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B0020C8A1C72FCC2009C555F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CourseraInfoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = andrew.cmu.edu.laiw.CourseraInfoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CourseraInfo.app/CourseraInfo";
+			};
+			name = Debug;
+		};
+		B0020C8B1C72FCC2009C555F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CourseraInfoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = andrew.cmu.edu.laiw.CourseraInfoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CourseraInfo.app/CourseraInfo";
+			};
+			name = Release;
+		};
+		B0020C8D1C72FCC2009C555F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CourseraInfoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = andrew.cmu.edu.laiw.CourseraInfoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CourseraInfo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B0020C8E1C72FCC2009C555F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CourseraInfoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = andrew.cmu.edu.laiw.CourseraInfoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CourseraInfo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0020C591C72FCC2009C555F /* Build configuration list for PBXProject "CourseraInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0020C841C72FCC2009C555F /* Debug */,
+				B0020C851C72FCC2009C555F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0020C861C72FCC2009C555F /* Build configuration list for PBXNativeTarget "CourseraInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0020C871C72FCC2009C555F /* Debug */,
+				B0020C881C72FCC2009C555F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B0020C891C72FCC2009C555F /* Build configuration list for PBXNativeTarget "CourseraInfoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0020C8A1C72FCC2009C555F /* Debug */,
+				B0020C8B1C72FCC2009C555F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B0020C8C1C72FCC2009C555F /* Build configuration list for PBXNativeTarget "CourseraInfoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0020C8D1C72FCC2009C555F /* Debug */,
+				B0020C8E1C72FCC2009C555F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0020C561C72FCC2009C555F /* Project object */;
+}

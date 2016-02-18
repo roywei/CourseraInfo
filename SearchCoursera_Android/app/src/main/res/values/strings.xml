@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SearchCoursera</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Search Courses on Coursera</string>
+    <string name="content">Enter key word(at least 2 characters), seperated by space, and we will give you at most 5 relavant courses on Coursera.com</string>
+</resources>
